@@ -1,4 +1,4 @@
-# LANDGING PAGE PROJECT
+# LANDING PAGE PROJECT
 
 - This project was used to **study** CSS and HTML.
 
