@@ -1,3 +1,3 @@
-#LANDGING PAGE PROJECT
+##LANDGING PAGE PROJECT
 
 - This project was used to study CSS and HTML.
