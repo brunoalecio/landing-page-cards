@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&family=Poppins:wght@300;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #F6F9FF;
+}
+
+.main-content {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 250px;
+    height: 230px;
+    border-radius: 8px;
+    background: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 30px;
+}
+
+.card img {
+    width: 45px;
+}
+
+.card h3 {
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.card span {
+    font-size: 12px;
+    margin: 15px 0px 15px 0px;
+}
+
+.card1 {
+    box-shadow: 5px 15px 20px rgba(101, 3, 182, 0.15);
+}
+
+.card1 button {
+    background: linear-gradient(to left, rgb(111, 5, 199), rgb(211, 157, 255));
+    border: none;
+    padding: 7px;
+    border-radius: 20px;
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.card1 button:hover {
+    background: rgb(126, 7, 224);
+}
+
+.card2 {
+    box-shadow: 5px 15px 30px rgba(7, 200, 235, 0.15);
+}
+
+.card2 button {
+    background: linear-gradient(to left, rgb(10, 130, 151), rgb(7, 200, 235));
+    border: none;
+    padding: 7px;
+    border-radius: 20px;
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.card2 button:hover {
+    background: rgb(10, 130, 151);
+}
+
+.card3 {
+    box-shadow: 5px 15px 30px rgba(197, 12, 120, 0.15);
+}
+
+.card3 button {
+    background: linear-gradient(to left, rgb(192, 27, 123), rgb(236, 82, 172));
+    border: none;
+    padding: 7px;
+    border-radius: 20px;
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.card3 button:hover {
+    background: rgb(192, 27, 123);
+}
